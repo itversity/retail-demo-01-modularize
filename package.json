@@ -1,0 +1,28 @@
+{
+  "name": "retail-demo",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/start",
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "mongoose": "^5.4.13",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
